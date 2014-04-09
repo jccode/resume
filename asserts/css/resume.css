@@ -110,6 +110,11 @@ body {
   right: 4px;
   z-index: 20;
 }
+@media (max-width: 480px) {
+  .header .like-button-panel {
+    bottom: 108px;
+  }
+}
 .header .like-button-panel .btn-like {
   color: #FFFFFF;
   font-size: 12px;
@@ -147,6 +152,16 @@ body {
   height: 32px;
   font-size: 14px;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .header .navmenu {
+    width: 70%;
+  }
+}
+@media (max-width: 767px) {
+  .header .navmenu {
+    width: 50%;
+  }
+}
 .header .navmenu ul {
   list-style: none outside none;
   padding: 0;
@@ -164,6 +179,9 @@ body {
   padding: 0 15px;
   color: #333;
 }
+.header .navmenu ul .nav-select-menu {
+  width: 100%;
+}
 .header .head-avatar {
   position: absolute;
   left: 0;
@@ -179,17 +197,6 @@ body {
   border: 3px solid #fff;
   border-radius: 2px;
 }
-.box {
-  margin-bottom: 12px;
-}
-.box .inner {
-  background-color: #fff;
-  border: 1px solid #d9d9d9;
-  border-radius: 3px;
-}
-.box .inner .bd {
-  padding: 22px 0 20px;
-}
 .main {
   padding-top: 20px;
 }
@@ -200,6 +207,31 @@ body {
   .main .right-side {
     padding-left: 15px;
   }
+}
+.box {
+  margin-bottom: 12px;
+}
+.box .inner {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+}
+.box .inner .hd {
+  background-color: #FAFAFA;
+  height: 35px;
+  line-height: 35px;
+  border-bottom: 1px solid #E6E6E6;
+}
+.box .inner .hd h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 0 0 10px;
+}
+.box .inner .hd h3 a {
+  color: #333;
+}
+.box .inner .bd {
+  padding: 22px 0 20px;
 }
 .profile-head ul {
   list-style: none outside none;

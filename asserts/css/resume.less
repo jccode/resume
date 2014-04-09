@@ -51,7 +51,7 @@ body {
             font-size: 15px;
         }
 
-        @media (max-width: @screen-md) {
+        @media (max-width: @screen-md-min) {
             display: block;
         }
     }
@@ -142,6 +142,10 @@ body {
 
     .like-button-panel {
         bottom: 68px;
+        @media (max-width: @screen-xs-min) { //for mobile
+            bottom: 108px;
+        }
+        
         font-size: 0;
         position: absolute;
         right: 4px;
@@ -188,6 +192,13 @@ body {
 
         font-size: 14px;
 
+        @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { //for tablet, nav-select-menu
+            width: 70%;
+        }
+        @media (max-width: @screen-xs-max) { //for mobile, nav-select-menu
+            width: 50%;
+        }
+
         ul {
             list-style: none outside none;
             padding: 0;
@@ -206,6 +217,10 @@ body {
                     
                     color: #333;
                 }
+            }
+
+            .nav-select-menu {
+                width: 100%;
             }
         }
     }
@@ -232,21 +247,6 @@ body {
 }
 
 
-// box
-.box {
-    margin-bottom: 12px;
-    
-    .inner {
-        background-color: #fff;
-        border: 1px solid #d9d9d9;
-        border-radius: 3px;
-
-        .bd {
-            padding: 22px 0 20px;
-        }
-    }
-}
-
 .main {
     padding-top: 20px;
 
@@ -259,6 +259,40 @@ body {
         }
     }
 }
+
+// box
+.box {
+    margin-bottom: 12px;
+    
+    .inner {
+        background-color: #fff;
+        border: 1px solid #d9d9d9;
+        border-radius: 3px;
+
+        .hd {
+            background-color: #FAFAFA;
+            height: 35px;
+            line-height: 35px;
+            border-bottom: 1px solid #E6E6E6;
+            
+            h3 {
+                font-size: 15px;
+                font-weight: bold;
+                margin: 0 0 0 10px;
+                
+                a {
+                    color: #333;
+                    
+                }
+            }
+        }
+
+        .bd {
+            padding: 22px 0 20px;
+        }
+    }
+}
+
 
 .profile-head {
     ul {
