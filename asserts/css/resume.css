@@ -104,7 +104,7 @@ body {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 .header .like-button-panel {
-  bottom: 18px;
+  bottom: 68px;
   font-size: 0;
   position: absolute;
   right: 4px;
@@ -123,9 +123,61 @@ body {
   border-width: 1px;
   display: inline-block;
   margin-left: 9px;
-  padding: 1px 0 0;
   text-shadow: 0 -1px rgba(0, 0, 0, 0.8);
-  vertical-align: top;
+}
+.header .like-button-panel .btn-like .btn-like-left,
+.header .like-button-panel .btn-like .btn-like-right {
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  color: #fff;
+}
+.header .like-button-panel .btn-like .btn-like-left {
+  padding-left: 14px;
+  padding-right: 10px;
+}
+.header .like-button-panel .btn-like .btn-like-right {
+  padding-left: 10px;
+  padding-right: 14px;
+}
+.header .navmenu {
+  position: absolute;
+  left: 150px;
+  top: 252px;
+  height: 32px;
+  font-size: 14px;
+}
+.header .navmenu ul {
+  list-style: none outside none;
+  padding: 0;
+  margin: 0;
+}
+.header .navmenu ul li {
+  float: left;
+  height: 50px;
+}
+.header .navmenu ul li a {
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
+  display: inline-block;
+  height: 47px;
+  line-height: 47px;
+  padding: 0 15px;
+  color: #333;
+}
+.header .head-avatar {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+  height: 126px;
+  width: 126px;
+}
+.header .head-avatar img {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #fff;
+  border-radius: 2px;
 }
 .box {
   margin-bottom: 12px;
@@ -137,6 +189,9 @@ body {
 }
 .box .inner .bd {
   padding: 22px 0 20px;
+}
+.main {
+  padding-top: 20px;
 }
 @media (min-width: 992px) {
   .main .left-side {
@@ -227,6 +282,23 @@ body {
 .ico-music-dynamic {
   background-position: -715px -150px;
   vertical-align: top;
+}
+.sp-btn-like {
+  background-image: url("../img/profile.32-tyn140313113554.png");
+  background-position: -197px 0;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-top: -3px;
+}
+.sp-btn-split {
+  background-image: url("../img/profile-tyn140313113554.png");
+  background-position: -308px -153px;
+  display: inline-block;
+  height: 32px;
+  width: 2px;
 }
 .drop-down-arrow {
   border-bottom: 3px dashed rgba(0, 0, 0, 0);

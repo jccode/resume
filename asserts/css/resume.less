@@ -141,7 +141,7 @@ body {
     }
 
     .like-button-panel {
-        bottom: 18px;
+        bottom: 68px;
         font-size: 0;
         position: absolute;
         right: 4px;
@@ -160,13 +160,75 @@ body {
             border-width: 1px;
             display: inline-block;
             margin-left: 9px;
-            padding: 1px 0 0;
+            // padding: 1px 0 0;
             text-shadow: 0 -1px rgba(0, 0, 0, 0.8);
-            vertical-align: top;    
+
+            .btn-like-left, .btn-like-right {
+                display: inline-block;
+                height: 32px;
+                line-height: 32px;
+                color: #fff;
+            }
+            .btn-like-left {
+                padding-left: 14px;
+                padding-right: 10px;
+            }
+            .btn-like-right {
+                padding-left: 10px;
+                padding-right: 14px;
+            }
         }
-        
     }
 
+    .navmenu {
+        position: absolute;
+        left: 150px;
+        top: 252px;
+        height: 32px;
+
+        font-size: 14px;
+
+        ul {
+            list-style: none outside none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                float: left;
+                height: 50px;
+
+                a {
+                    border-bottom: 3px solid rgba(0, 0, 0, 0);
+                    display: inline-block;
+                    height: 47px;
+                    line-height: 47px;
+                    padding: 0 15px;                    
+                    
+                    color: #333;
+                }
+            }
+        }
+    }
+
+    .head-avatar {
+        position: absolute;
+        left: 0;
+        bottom: 20px;
+
+        border: 1px solid #D9D9D9;
+        border-radius: 3px;
+        height: 126px;
+        width: 126px;
+
+        img {
+            // width: 120px;
+            // height: 120px;
+            width: 100%;
+            height: 100%;
+            border: 3px solid #fff;
+            border-radius: 2px;
+        }
+    }
 }
 
 
@@ -186,6 +248,8 @@ body {
 }
 
 .main {
+    padding-top: 20px;
+
     @media (min-width: @screen-md) {
         .left-side {
             padding-right: 15px;
@@ -305,6 +369,28 @@ body {
     vertical-align: top;
 }
 
+
+
+.sp-btn-like {
+    background-image: url("@{STATIC_ROOT}/img/profile.32-tyn140313113554.png");
+    background-position: -197px 0;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+
+    
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+.sp-btn-split {
+    background-image: url("@{STATIC_ROOT}/img/profile-tyn140313113554.png");
+    background-position: -308px -153px;
+    display: inline-block;
+    height: 32px;
+    width: 2px;
+}
 
 .drop-down-arrow {
     border-bottom: 3px dashed rgba(0, 0, 0, 0);
