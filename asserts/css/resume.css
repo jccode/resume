@@ -429,6 +429,220 @@ ul.qz-list li .qz-main h4 {
 .user-feeds-panel ul.user-feeds li.feed-item .f-aside .info-detail span a {
   color: #8c8c8c;
 }
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-info {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 22px;
+  margin-top: -5px;
+  padding: 0 10px 8px;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-info:after {
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap {
+  background-color: #fafafa;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap p {
+  margin: 0px;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .ui-icon {
+  height: 16px;
+  width: 16px;
+  margin: 0px;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-detail {
+  position: relative;
+  border-width: 1px 0 0;
+  border-style: solid;
+  border-color: #E6E6E6;
+  padding: 5px 10px;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-detail a {
+  color: #8C8C8C;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-detail .item {
+  display: inline-block;
+  margin: 0 8px 0 0;
+  padding: 6px 8px;
+  vertical-align: middle;
+  color: #5D7895;
+  border-color: #FAFAFA;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-detail .item:hover {
+  border: 1px solid #E6E6E6;
+  border-radius: 2px;
+  padding: 5px 7px;
+  text-decoration: none;
+  background: none repeat scroll 0 0 #fff;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-detail .item .ui-icon {
+  margin-right: 7px;
+  vertical-align: -3px;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-detail .item-line {
+  border-color: #E6E6E6;
+  border-style: solid;
+  border-width: 0 1px 0 0;
+  display: inline-block;
+  font-size: 0;
+  height: 11px;
+  line-height: 0;
+  margin-right: 9px;
+  overflow: hidden;
+  vertical-align: -3px;
+  width: 1px;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-like {
+  margin-bottom: 2px;
+  padding: 0 0 0 10px;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-like:after {
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-like .icon-btn {
+  float: left;
+  margin-right: 10px;
+  position: relative;
+  width: 30px;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-like .icon-btn a.praise {
+  background: none repeat scroll 0 0 #FFF;
+  border-color: #E6E6E6;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  display: inline-block;
+  padding: 6px;
+  color: #5D7895;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-like .icon-btn a.praise:hover {
+  border-color: #D9D9D9;
+  background: none repeat scroll 0 0 #FAFAFA;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-like .user-list:after {
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-like .user-list a.item {
+  float: left;
+  height: 30px;
+  width: 30px;
+  margin: 0 10px 10px 0;
+  color: #5D7895;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-like .user-list a.item img {
+  border-radius: 2px;
+  width: 30px;
+  height: 30px;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments {
+  padding: 0 10px 12px;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none outside none;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-list .comments-item {
+  margin-bottom: 4px;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-list .comments-item .comments-item-bd {
+  position: relative;
+  padding: 0 0 0 40px;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-list .comments-item .comments-item-bd .ui-avatar {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-list .comments-item .comments-item-bd .ui-avatar a {
+  color: #5D7895;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-list .comments-item .comments-item-bd .ui-avatar img {
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  vertical-align: top;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-list .comments-item .comments-item-bd .comments-content {
+  position: relative;
+  line-height: 1.5;
+  top: -3px;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-list .comments-item .comments-item-bd .comments-content a.qname {
+  color: #5D7895;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-list .comments-item .comments-item-bd .comments-content .comments-op {
+  position: relative;
+  line-height: 18px;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-list .comments-item .comments-item-bd .comments-content .comments-op span {
+  margin-right: 10px;
+  color: #8C8C8C;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-list .comments-item .comments-item-bd .comments-sub {
+  padding: 4px 0 0;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-poster {
+  position: relative;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-poster .comments-box {
+  position: relative;
+  z-index: 1;
+  padding: 0;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-poster .comments-box .text-input {
+  padding: 2px 3px 2px 10px;
+  line-height: 24px;
+  min-height: 24px;
+  box-shadow: none;
+  background-color: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  color: #333333;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-poster .comments-box .text-input > a {
+  cursor: text;
+  outline: medium none;
+  text-decoration: none;
+  color: #8C8C8C;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-poster .comments-box .c-insert-img,
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-poster .comments-box .c-quick-comment {
+  position: absolute;
+  top: 1px;
+  height: 28px;
+  width: 56px;
+  text-align: center;
+  border-width: 0 0 0 1px;
+  border-color: #E6E6E6;
+  border-style: solid;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-poster .comments-box .c-insert-img a,
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-poster .comments-box .c-quick-comment a {
+  cursor: pointer;
+  display: block;
+  height: 28px;
+  line-height: 27px;
+  outline: medium none;
+  background: none repeat scroll 0 0 #FFFFFF;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-poster .comments-box .c-insert-img {
+  right: 58px;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-poster .comments-box .c-quick-comment {
+  right: 1px;
+}
 .ui-icon {
   height: 19px;
   width: 16px;
@@ -478,6 +692,35 @@ ul.qz-list li .qz-main h4 {
 }
 .icon-browse {
   background-position: -365px -100px;
+}
+.icon-comment {
+  background-position: -340px -150px;
+}
+.icon-forward {
+  background-position: -340px -175px;
+}
+.icon-praise {
+  background-position: -340px -75px;
+}
+.icon-feed-delete {
+  background-position: -365px -50px;
+}
+.icon-feed-top {
+  background-position: -365px 0;
+}
+.icon-reply {
+  background-position: -390px -75px;
+  vertical-align: top;
+}
+.icon-camera {
+  background-position: -590px 0;
+  height: 16px;
+  width: 16px;
+  margin-top: 6px;
+}
+.icon-flash {
+  background-position: -590px -150px;
+  width: 18px !important;
 }
 .sp-btn-like {
   background-image: url("../img/profile.32-tyn140313113554.png");
