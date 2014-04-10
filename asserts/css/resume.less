@@ -5,6 +5,16 @@
 @STATIC_ROOT: "..";
 
 
+// Utilities
+._clearfix() {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+
 body {
     font-family: "Helvetica Neue","Microsoft YaHei",Tohoma;
     font-size: 12px;
@@ -468,6 +478,71 @@ ul.qz-list {
     }
 }
 
+.user-feeds-panel {
+    font-size: 12px;
+    line-height: 1.33;
+    
+    ul.user-feeds {
+        margin: 0;
+        padding: 0;
+        list-style: none outside none;
+        
+        li.feed-item {
+            list-style: none outside none;
+
+            background-color: #fff;
+            border: 1px solid #d9d9d9;
+            border-radius: 2px;
+            margin-bottom: 12px;
+            vertical-align: top;
+            
+            &:after {
+                ._clearfix();
+            }
+            
+            .f-aside {
+                position: relative;
+                padding: 15px 10px 0;
+                margin-bottom: 12px;
+                min-height: 50px;
+                
+                &:after {
+                    ._clearfix();
+                }
+
+
+                .f-nick {
+                    font-size: 14px;
+                    line-height: 22px;
+                    width: 360px;
+                    margin-bottom: 8px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    word-wrap: normal;
+
+                    a {
+                        color: #333;
+                    }
+                }
+
+                .info-detail {
+                    span {
+                        display: inline-block;
+                        vertical-align: top;
+                        color: #8c8c8c;
+                        margin-right: 8px;
+                        
+                        a {
+                            color: #8c8c8c;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 
 // icons
@@ -532,6 +607,9 @@ ul.qz-list {
     vertical-align: top;
 }
 
+.icon-browse {
+     background-position: -365px -100px;
+}
 
 
 .sp-btn-like {

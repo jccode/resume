@@ -370,6 +370,65 @@ ul.qz-list li .qz-main h4 {
   padding: 0px;
   line-height: 2;
 }
+.user-feeds-panel {
+  font-size: 12px;
+  line-height: 1.33;
+}
+.user-feeds-panel ul.user-feeds {
+  margin: 0;
+  padding: 0;
+  list-style: none outside none;
+}
+.user-feeds-panel ul.user-feeds li.feed-item {
+  list-style: none outside none;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  margin-bottom: 12px;
+  vertical-align: top;
+}
+.user-feeds-panel ul.user-feeds li.feed-item:after {
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-aside {
+  position: relative;
+  padding: 15px 10px 0;
+  margin-bottom: 12px;
+  min-height: 50px;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-aside:after {
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-aside .f-nick {
+  font-size: 14px;
+  line-height: 22px;
+  width: 360px;
+  margin-bottom: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-aside .f-nick a {
+  color: #333;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-aside .info-detail span {
+  display: inline-block;
+  vertical-align: top;
+  color: #8c8c8c;
+  margin-right: 8px;
+}
+.user-feeds-panel ul.user-feeds li.feed-item .f-aside .info-detail span a {
+  color: #8c8c8c;
+}
 .ui-icon {
   height: 19px;
   width: 16px;
@@ -416,6 +475,9 @@ ul.qz-list li .qz-main h4 {
 .ico-music-dynamic {
   background-position: -715px -150px;
   vertical-align: top;
+}
+.icon-browse {
+  background-position: -365px -100px;
 }
 .sp-btn-like {
   background-image: url("../img/profile.32-tyn140313113554.png");
