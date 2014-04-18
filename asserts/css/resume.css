@@ -53,11 +53,23 @@ body {
   right: 0;
   list-style: none outside none;
   margin-top: 1px;
-  min-width: 160px;
+  min-width: 120px;
   position: absolute;
   top: 100%;
   z-index: 1000;
-  padding: 15px 15px 0px;
+  padding: 5px 15px;
+}
+.my-dropdown-panel ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.my-dropdown-panel ul li {
+  height: 30px;
+  line-height: 30px;
+}
+.my-dropdown-panel ul li .avatar {
+  margin-left: 0px;
 }
 .background-container {
   background-attachment: scroll;
