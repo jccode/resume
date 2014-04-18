@@ -643,6 +643,83 @@ ul.qz-list li .qz-main h4 {
 .user-feeds-panel ul.user-feeds li.feed-item .f-wrap .f-op-wrap .f-comments .comments-poster .comments-box .c-quick-comment {
   right: 1px;
 }
+.leave-msg > ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.leave-msg > ul > li {
+  border-bottom: 1px solid #E0E0E0;
+  position: relative;
+  margin-bottom: -1px;
+}
+.leave-msg .lvmsg-item {
+  position: relative;
+  padding: 10px 0px;
+}
+.leave-msg .lvmsg-item .avatar {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+.leave-msg .lvmsg-item .avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+.leave-msg .lvmsg-item .lvmsg-cm {
+  margin-left: 65px;
+}
+.leave-msg .lvmsg-item .lvmsg-cm .lvmsg-hd {
+  height: 23px;
+  line-height: 23px;
+}
+.leave-msg .lvmsg-item .lvmsg-cm .lvmsg-hd .op {
+  float: right;
+}
+.leave-msg .lvmsg-item .lvmsg-cm .lvmsg-hd .op b.line {
+  position: relative;
+  display: inline-block;
+  width: 1px;
+  font-size: 0;
+  height: 12px;
+  line-height: 0;
+  overflow: visible;
+  color: #444;
+  border-right: 1px solid #ddd;
+  vertical-align: middle;
+  margin: 0 0 0 5px;
+}
+.leave-msg .lvmsg-item .lvmsg-cm .lvmsg-hd .op .triangle {
+  height: 20px;
+  line-height: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+.leave-msg .lvmsg-item .lvmsg-cm .lvmsg-hd .name {
+  font-size: 14px;
+}
+.leave-msg .lvmsg-item .lvmsg-cm .lvmsg-hd .floor {
+  margin-left: 15px;
+}
+.leave-msg .lvmsg-item .lvmsg-cm .lvmsg-c {
+  margin-top: 5px;
+  min-height: 50px;
+  color: #444;
+}
+.leave-msg .lvmsg-item .lvmsg-cm .lvmsg-foot {
+  padding-top: 8px;
+}
+.leave-msg .lvmsg-item .lvmsg-cm .lvmsg-foot .time {
+  margin-right: 5px;
+}
+.leave-msg .lvmsg-item .lvmsg-cm .lvmsg-foot a {
+  margin-left: 10px;
+}
+.leave-msg .lvmsg-item .lvmsg-cm .floor,
+.leave-msg .lvmsg-item .lvmsg-cm .time {
+  color: #9B9B9B;
+}
 .ui-icon {
   height: 19px;
   width: 16px;

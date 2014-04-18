@@ -799,6 +799,101 @@ ul.qz-list {
     }
 }
 
+.leave-msg {
+    > ul {
+        list-style: none outside none;
+        margin: 0;
+        padding: 0;
+        
+        > li {
+            border-bottom: 1px solid #E0E0E0;
+            position: relative;
+            margin-bottom: -1px;
+        }
+    }
+
+    .lvmsg-item {
+        position: relative;
+        padding: 10px 0px;
+
+        .avatar {
+            width: 50px;
+            height: 50px;
+            float: left;
+            // margin-left: 10px;
+            
+            img {
+                width: 50px;
+                height: 50px;
+                border-radius: 4px;
+            }
+        }
+
+        .lvmsg-cm {
+            margin-left: 65px;
+            
+            .lvmsg-hd {
+                height: 23px;
+                line-height: 23px;
+                
+                .op {
+                    float: right;
+                    
+                    b.line {
+                        position: relative;
+                        display: inline-block;
+                        width: 1px;
+                        font-size: 0;
+                        height: 12px;
+                        line-height: 0;
+                        overflow: visible;
+                        color: #444;
+                        border-right: 1px solid #ddd;
+                        vertical-align: middle;
+                        margin: 0 0 0 5px;
+                    }
+
+                    .triangle {
+                        height: 20px;
+                        line-height: 20px;
+                        display: inline-block;
+                        text-decoration: none;
+                    }
+                }
+
+                .name {
+                    font-size: 14px;
+                }
+                
+                .floor {
+                    margin-left: 15px;
+                }
+            }
+            
+            .lvmsg-c {
+                margin-top: 5px;
+                min-height: 50px;
+                color: #444;
+            }
+            
+            .lvmsg-foot {
+                padding-top: 8px;
+                
+                .time {
+                    margin-right: 5px;
+                }
+
+                a {
+                    margin-left: 10px;
+                }
+            }
+            
+            .floor, .time {
+                color: #9B9B9B;
+            }
+        }
+    }
+}
 
 
 // icons
