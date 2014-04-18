@@ -821,6 +821,10 @@ ul.qz-list {
             height: 50px;
             float: left;
             // margin-left: 10px;
+
+            a {
+                display: inline-block;
+            }
             
             img {
                 width: 50px;
@@ -890,6 +894,118 @@ ul.qz-list {
             
             .floor, .time {
                 color: #9B9B9B;
+            }
+        }
+    }
+}
+
+
+@cmp_logo_height: 40px;
+
+.experience {
+    ul {
+        list-style: none outside none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .exp-item {
+
+        > li {
+            border-bottom: 1px solid #E0E0E0;
+            position: relative;
+            margin-bottom: -1px;
+        }
+        
+        .exp-main {
+            padding: 20px 0 10px;
+
+            h4 {
+                margin: 0;
+                padding: 0;
+            }
+
+            .exp-hd {
+                margin-bottom: 10px;
+                
+                &:after {
+                    ._clearfix();
+                }
+                
+                .cmp-logo {
+                    display: inline-block;
+                    width: 2*@cmp_logo_height+20;
+                    height: @cmp_logo_height+20;
+                    background-color: #6BB9C9; // #DEF2FF; #6BB9C9;
+                    padding: 10px;
+                    border-radius: 4px;
+
+                    float: left;
+                    
+                    img {
+                        width: 2*@cmp_logo_height;
+                        height: @cmp_logo_height;
+                    }
+                }
+
+                .cmp-info {
+                    margin: 0 0 0 2*@cmp_logo_height+30;
+
+                    h4 {
+                        font-size: 14px;
+                        height: 35px;
+                        line-height: 35px;
+                    }
+
+                    .job-title {
+                        height: 20px;
+                        line-height: 20px;
+
+                        span {
+                            margin-right: 20px;
+                        }
+                    }
+                }
+            }
+
+            .exp-bd {
+
+                .prj-main {
+                    margin-bottom: 20px;
+
+                    h4 {
+                        height: 35px;
+                        line-height: 35px;
+                        font-size: 18px;
+                    }
+
+                    .prj-c {
+                        
+                        
+                        dl {
+                            margin: 0;
+                            padding: 0;
+                            
+                            dt {
+                                width: 60px;
+                                float: left;
+                                font-weight: normal;
+                                line-height: 1.5;
+                            }
+
+                            dd {
+                                margin-left: 65px;
+                                margin-bottom: 5px;
+                                line-height: 1.5;
+
+
+                                &:after {
+                                    ._clearfix();
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

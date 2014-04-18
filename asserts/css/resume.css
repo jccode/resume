@@ -662,6 +662,9 @@ ul.qz-list li .qz-main h4 {
   height: 50px;
   float: left;
 }
+.leave-msg .lvmsg-item .avatar a {
+  display: inline-block;
+}
 .leave-msg .lvmsg-item .avatar img {
   width: 50px;
   height: 50px;
@@ -719,6 +722,91 @@ ul.qz-list li .qz-main h4 {
 .leave-msg .lvmsg-item .lvmsg-cm .floor,
 .leave-msg .lvmsg-item .lvmsg-cm .time {
   color: #9B9B9B;
+}
+.experience ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.experience .exp-item > li {
+  border-bottom: 1px solid #E0E0E0;
+  position: relative;
+  margin-bottom: -1px;
+}
+.experience .exp-item .exp-main {
+  padding: 20px 0 10px;
+}
+.experience .exp-item .exp-main h4 {
+  margin: 0;
+  padding: 0;
+}
+.experience .exp-item .exp-main .exp-hd {
+  margin-bottom: 10px;
+}
+.experience .exp-item .exp-main .exp-hd:after {
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.experience .exp-item .exp-main .exp-hd .cmp-logo {
+  display: inline-block;
+  width: 100px;
+  height: 60px;
+  background-color: #6BB9C9;
+  padding: 10px;
+  border-radius: 4px;
+  float: left;
+}
+.experience .exp-item .exp-main .exp-hd .cmp-logo img {
+  width: 80px;
+  height: 40px;
+}
+.experience .exp-item .exp-main .exp-hd .cmp-info {
+  margin: 0 0 0 110px;
+}
+.experience .exp-item .exp-main .exp-hd .cmp-info h4 {
+  font-size: 14px;
+  height: 35px;
+  line-height: 35px;
+}
+.experience .exp-item .exp-main .exp-hd .cmp-info .job-title {
+  height: 20px;
+  line-height: 20px;
+}
+.experience .exp-item .exp-main .exp-hd .cmp-info .job-title span {
+  margin-right: 20px;
+}
+.experience .exp-item .exp-main .exp-bd .prj-main {
+  margin-bottom: 20px;
+}
+.experience .exp-item .exp-main .exp-bd .prj-main h4 {
+  height: 35px;
+  line-height: 35px;
+  font-size: 18px;
+}
+.experience .exp-item .exp-main .exp-bd .prj-main .prj-c dl {
+  margin: 0;
+  padding: 0;
+}
+.experience .exp-item .exp-main .exp-bd .prj-main .prj-c dl dt {
+  width: 60px;
+  float: left;
+  font-weight: normal;
+  line-height: 1.5;
+}
+.experience .exp-item .exp-main .exp-bd .prj-main .prj-c dl dd {
+  margin-left: 65px;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+.experience .exp-item .exp-main .exp-bd .prj-main .prj-c dl dd:after {
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
 }
 .ui-icon {
   height: 19px;
