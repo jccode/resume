@@ -768,15 +768,21 @@ ul.qz-list li .qz-main h4 {
 }
 .experience .exp-item .exp-main .exp-hd .cmp-info h4 {
   font-size: 14px;
-  height: 35px;
-  line-height: 35px;
 }
-.experience .exp-item .exp-main .exp-hd .cmp-info .job-title {
-  height: 20px;
-  line-height: 20px;
+@media (min-width: 380px) {
+  .experience .exp-item .exp-main .exp-hd .cmp-info h4 {
+    height: 35px;
+    line-height: 35px;
+  }
 }
-.experience .exp-item .exp-main .exp-hd .cmp-info .job-title span {
-  margin-right: 20px;
+@media (min-width: 380px) {
+  .experience .exp-item .exp-main .exp-hd .cmp-info .job-title {
+    height: 20px;
+    line-height: 20px;
+  }
+  .experience .exp-item .exp-main .exp-hd .cmp-info .job-title span {
+    margin-right: 20px;
+  }
 }
 .experience .exp-item .exp-main .exp-bd .prj-main {
   margin-bottom: 20px;
